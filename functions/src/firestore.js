@@ -1,5 +1,5 @@
 const admin = require('firebase-admin')
-const serviceAccount = require('../credentials.json')
+const serviceAccount = require('../credentials2.json')
 
 exports.connectFirestore = () => {
   if (admin.apps.length === 0) {
