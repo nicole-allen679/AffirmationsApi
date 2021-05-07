@@ -25,7 +25,7 @@ exports.postAffirmations = (req, res) => {
       created_at: now,
       text,
       displayName,
-      photoURL
+      photoURL,
   }
   db.collection('affirmations').add(newAffirmation)
   .then(() =>{
